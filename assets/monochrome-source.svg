@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Versión monócroma (silueta) para el ícono temático de Android -->
+  <g fill="#FFFFFF">
+    <rect x="76" y="248" width="360" height="18" rx="9"/>
+    <rect x="54" y="186" width="36" height="140" rx="12"/>
+    <rect x="94" y="208" width="26" height="96" rx="9"/>
+    <rect x="422" y="186" width="36" height="140" rx="12"/>
+    <rect x="392" y="208" width="26" height="96" rx="9"/>
+    <path d="M136 238C136 188 190 158 256 158C322 158 376 188 376 238Z"/>
+    <path d="M132 238C146 226 158 250 172 238C186 226 198 250 212 238C226 226 238 250 252 238C266 226 278 250 292 238C306 226 318 250 332 238C346 226 358 250 372 238L378 258H126Z"/>
+    <rect x="134" y="254" width="244" height="36" rx="18"/>
+    <path d="M136 288H376V300C376 344 322 368 256 368C190 368 136 344 136 300Z"/>
+  </g>
+</svg>

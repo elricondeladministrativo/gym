@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Logo GymApp: mancuerna + hamburguesa -->
+  <!-- Barra -->
+  <rect x="76" y="248" width="360" height="18" rx="9" fill="#B0B0B0"/>
+  <rect x="76" y="248" width="360" height="6" rx="3" fill="#D9D9D9"/>
+
+  <!-- Discos izquierda -->
+  <rect x="54" y="186" width="36" height="140" rx="12" fill="#457B9D"/>
+  <rect x="94" y="208" width="26" height="96" rx="9" fill="#1D3557"/>
+
+  <!-- Discos derecha -->
+  <rect x="422" y="186" width="36" height="140" rx="12" fill="#457B9D"/>
+  <rect x="392" y="208" width="26" height="96" rx="9" fill="#1D3557"/>
+
+  <!-- Pan superior -->
+  <path d="M136 238C136 188 190 158 256 158C322 158 376 188 376 238Z" fill="#FF6B35"/>
+  <path d="M150 228C158 194 202 174 256 174C310 174 354 194 362 228Z" fill="#FF8B5E" opacity="0.55"/>
+
+  <!-- Semillas -->
+  <ellipse cx="216" cy="202" rx="9" ry="4.5" fill="#FFE3D3" transform="rotate(-18 216 202)"/>
+  <ellipse cx="258" cy="190" rx="9" ry="4.5" fill="#FFE3D3" transform="rotate(6 258 190)"/>
+  <ellipse cx="300" cy="204" rx="9" ry="4.5" fill="#FFE3D3" transform="rotate(18 300 204)"/>
+  <ellipse cx="232" cy="219" rx="7" ry="3.5" fill="#FFE3D3" transform="rotate(-8 232 219)"/>
+  <ellipse cx="280" cy="219" rx="7" ry="3.5" fill="#FFE3D3" transform="rotate(8 280 219)"/>
+
+  <!-- Lechuga -->
+  <path d="M132 238C146 226 158 250 172 238C186 226 198 250 212 238C226 226 238 250 252 238C266 226 278 250 292 238C306 226 318 250 332 238C346 226 358 250 372 238L378 258H126Z" fill="#457B9D"/>
+
+  <!-- Carne -->
+  <rect x="134" y="254" width="244" height="36" rx="18" fill="#1D3557"/>
+  <rect x="146" y="262" width="220" height="8" rx="4" fill="#457B9D" opacity="0.85"/>
+
+  <!-- Pan inferior -->
+  <path d="M136 288H376V300C376 344 322 368 256 368C190 368 136 344 136 300Z" fill="#FF6B35"/>
+  <path d="M150 320C186 344 326 344 362 320C352 352 308 368 256 368C204 368 160 352 150 320Z" fill="#E85A28" opacity="0.65"/>
+</svg>

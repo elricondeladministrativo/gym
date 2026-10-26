@@ -1,24 +1,51 @@
 {
   "expo": {
     "name": "GymApp",
-    "slug": "GymApp",
-    "version": "1.0.0",
+    "slug": "gymapp",
+    "scheme": "gymapp",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D0D0D",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gymapp.app"
     },
     "android": {
+      "package": "com.gymapp.app",
+      "versionCode": 1,
+      "predictiveBackGestureEnabled": false,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0D0D",
+        "monochromeImage": "./assets/monochrome-icon.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0D0D0D",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-font",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "GymApp usa tus fotos para ilustrar los ejercicios.",
+          "cameraPermission": "GymApp usa la cámara para fotografiar ejercicios.",
+          "microphonePermission": false
+        }
+      ]
+    ]
   }
 }
